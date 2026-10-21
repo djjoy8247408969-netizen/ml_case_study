@@ -347,17 +347,8 @@ Cluster metrics should be considered together with cluster sizes. A strong score
 - Shopper segments are statistical groupings, not definitive statements about an individual visitor.
 - Forecasts are estimates and should not be treated as guaranteed future outcomes.
 
-## 13. Team Information
 
-The supplied README template contained placeholder team-member details. Add the correct names, roll numbers, and track responsibilities here before submission.
-
-| Team member | Roll number | Track |
-|---|---|---|
-| Add name | Add roll number | Regression |
-| Add name | Add roll number | Classification |
-| Add name | Add roll number | Clustering |
-
-## 14. References
+## 13. References
 
 - UCI Machine Learning Repository — [Bike Sharing Dataset](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset)
 - UCI Machine Learning Repository — [Adult Dataset](https://archive.ics.uci.edu/dataset/2/adult)
