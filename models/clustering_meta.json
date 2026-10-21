@@ -1,0 +1,97 @@
+{
+  "k": 4,
+  "best_linkage": "ward",
+  "segment_names": {
+    "1": "Bouncers",
+    "2": "High-Intent Shoppers",
+    "3": "Account & Info Seekers",
+    "0": "Window Shoppers"
+  },
+  "cluster_features": [
+    "total_pages",
+    "avg_time_per_page",
+    "PageValues",
+    "BounceRates",
+    "ExitRates",
+    "product_share"
+  ],
+  "profile": [
+    {
+      "cluster": 0,
+      "segment": "Window Shoppers",
+      "sessions": 7461,
+      "total_pages": 33.27114327838091,
+      "total_duration": 1240.8288111589159,
+      "avg_time_per_page": 40.022373751994856,
+      "PageValues": 0.028604080883125587,
+      "BounceRates": 0.012189634049725239,
+      "ExitRates": 0.036915269645623916,
+      "product_share": 0.9570703617509748,
+      "Administrative": 1.4085243264977885,
+      "Informational": 0.3258276370459724,
+      "ProductRelated": 31.536791314837153
+    },
+    {
+      "cluster": 1,
+      "segment": "Bouncers",
+      "sessions": 863,
+      "total_pages": 2.0440324449594436,
+      "total_duration": 11.51797991506373,
+      "avg_time_per_page": 2.5039916525872496,
+      "PageValues": 0.0,
+      "BounceRates": 0.18342395357358054,
+      "ExitRates": 0.19173721669293164,
+      "product_share": 0.9753476245654693,
+      "Administrative": 0.01853997682502897,
+      "Informational": 0.008111239860950173,
+      "ProductRelated": 2.0173812282734644
+    },
+    {
+      "cluster": 2,
+      "segment": "High-Intent Shoppers",
+      "sessions": 2537,
+      "total_pages": 60.231769806858495,
+      "total_duration": 2366.1538347576206,
+      "avg_time_per_page": 42.53960040281311,
+      "PageValues": 28.266284610916436,
+      "BounceRates": 0.005379349721324399,
+      "ExitRates": 0.019003143965313364,
+      "product_share": 0.8957527376657239,
+      "Administrative": 4.39929050059125,
+      "Informational": 1.0169491525423728,
+      "ProductRelated": 54.81553015372487
+    },
+    {
+      "cluster": 3,
+      "segment": "Account & Info Seekers",
+      "sessions": 1469,
+      "total_pages": 15.790333560245065,
+      "total_duration": 600.4513077678802,
+      "avg_time_per_page": 38.995933573456036,
+      "PageValues": 0.46941480030496935,
+      "BounceRates": 0.0073046830374404355,
+      "ExitRates": 0.028579016602450644,
+      "product_share": 0.6160044809539694,
+      "Administrative": 4.669843430905378,
+      "Informational": 0.8107556160653506,
+      "ProductRelated": 10.309734513274336
+    }
+  ],
+  "conversion": {
+    "High-Intent Shoppers": 0.5786361844698463,
+    "Account & Info Seekers": 0.08168822328114364,
+    "Window Shoppers": 0.04248760219809677,
+    "Bouncers": 0.0034762456546929316
+  },
+  "sessions": {
+    "High-Intent Shoppers": 2537,
+    "Account & Info Seekers": 1469,
+    "Window Shoppers": 7461,
+    "Bouncers": 863
+  },
+  "pca_explained_variance": [
+    0.5206,
+    0.1679
+  ],
+  "overall_conversion": 0.15474452554744525
+}
