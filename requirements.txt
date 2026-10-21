@@ -1,8 +1,11 @@
-
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-jupyter
-joblib
+# Python 3.13 (tested). Pinned so the saved .joblib models load with the exact scikit-learn they were trained with.
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.1.0
+streamlit==1.65.0
+jinja2==3.1.6
